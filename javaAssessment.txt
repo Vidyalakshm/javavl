@@ -1,0 +1,11 @@
+1.Display the Empno, Ename, Deptno from EMP table.
+
+select Empno, Ename, Deptno from EMP ;
+
+2.Write a query to display the Empno and the Deptno of all emps.
+
+select Empno, Deptno from EMP
+
+3.Display the unique Depts of emps
+
+select distinct deptno from emp;
